@@ -1,5 +1,5 @@
 deployAs:
-  - name: visualizer
+  - name: visualiser
     applicationType: merchant-center-custom-application
     configuration:
       standardConfiguration:
@@ -9,7 +9,7 @@ deployAs:
         - key: ENTRY_POINT_URI_PATH
           description: The Application entry point URI path
           required: true
-          default: 'visualizer'
+          default: 'visualiser'
         - key: INITIAL_PROJECT_KEY
           description: development project key
           required: true
