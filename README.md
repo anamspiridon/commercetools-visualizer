@@ -19,70 +19,70 @@ The commercetools Visualizer is pre-packaged to run as a connect application. Fo
 
 ### Home Screen
 
-![Homescreen.jpg](visualiser/docs/Homescreen.jpg)
+![Homescreen.jpg](ctvisualiser/docs/Homescreen.jpg)
 
 ### API Extensions
 
 List View
-![Types-List.jpg](visualiser/docs/Extensions-List.jpg)
+![Types-List.jpg](ctvisualiser/docs/Extensions-List.jpg)
 New View
-![Types-New.jpg](visualiser/docs/Extensions-New.jpg)
+![Types-New.jpg](ctvisualiser/docs/Extensions-New.jpg)
 
 ### Carts
 
 List View
-![Types-List.jpg](visualiser/docs/Carts-List.jpg)
+![Types-List.jpg](ctvisualiser/docs/Carts-List.jpg)
 Detail View
-![Types-Details.jpg](visualiser/docs/Carts-Details.jpg)
+![Types-Details.jpg](ctvisualiser/docs/Carts-Details.jpg)
 New View
-![Types-New.jpg](visualiser/docs/Carts-New.jpg)
+![Types-New.jpg](ctvisualiser/docs/Carts-New.jpg)
 
 ### Shopping Lists
 
 List View
-![Types-List.jpg](visualiser/docs/Shoppinglists-List.jpg)
+![Types-List.jpg](ctvisualiser/docs/Shoppinglists-List.jpg)
 Detail View
-![Types-Details.jpg](visualiser/docs/Shoppinglists-Details.jpg)
+![Types-Details.jpg](ctvisualiser/docs/Shoppinglists-Details.jpg)
 New View
-![Types-New.jpg](visualiser/docs/Shoppinglists-New.jpg)
+![Types-New.jpg](ctvisualiser/docs/Shoppinglists-New.jpg)
 
 ### States
 
 List View
-![Types-List.jpg](visualiser/docs/States-List.jpg)
+![Types-List.jpg](ctvisualiser/docs/States-List.jpg)
 Detail View
-![Types-Details.jpg](visualiser/docs/States-Details.jpg)
+![Types-Details.jpg](ctvisualiser/docs/States-Details.jpg)
 New View
-![Types-New.jpg](visualiser/docs/States-New.jpg)
+![Types-New.jpg](ctvisualiser/docs/States-New.jpg)
 
 ### Subscriptions
 
 List View
-![Types-List.jpg](visualiser/docs/Subscriptions-List.jpg)
+![Types-List.jpg](ctvisualiser/docs/Subscriptions-List.jpg)
 Detail View
-![Types-Details.jpg](visualiser/docs/Subscriptions-Details.jpg)
+![Types-Details.jpg](ctvisualiser/docs/Subscriptions-Details.jpg)
 New View
-![Types-New.jpg](visualiser/docs/Subscriptions-New.jpg)
+![Types-New.jpg](ctvisualiser/docs/Subscriptions-New.jpg)
 
 ### Types
 
 List View
-![Types-List.jpg](visualiser/docs/Types-List.jpg)
+![Types-List.jpg](ctvisualiser/docs/Types-List.jpg)
 Detail View
-![Types-Details.jpg](visualiser/docs/Types-Details.jpg)
+![Types-Details.jpg](ctvisualiser/docs/Types-Details.jpg)
 New View
-![Types-New.jpg](visualiser/docs/Types-New.jpg)
+![Types-New.jpg](ctvisualiser/docs/Types-New.jpg)
 
 ### Custom Objects
 
 List View
-![Custom-Objects-List.png](visualiser/docs/Custom-Objects-List.png)
+![Custom-Objects-List.png](ctvisualiser/docs/Custom-Objects-List.png)
 Detail View
-![Custom-Objects-Edit.png](visualiser/docs/Custom-Objects-Edit.png)
+![Custom-Objects-Edit.png](ctvisualiser/docs/Custom-Objects-Edit.png)
 
 ## Local Development
 
-Create a file .env.local within the folder [visualizer](./visualiser) folder like:
+Create a file .env.local within the folder [visualizer](./ctvisualiser) folder like:
 ```dotenv    
 CLOUD_IDENTIFIER=gcp-eu
 CUSTOM_APPLICATION_ID=TODO
@@ -92,7 +92,7 @@ INITIAL_PROJECT_KEY=YOUR_PROJECT_KEY
 Run the following commands
 
 ```shell    
-cd ./visualiser
+cd ./ctvisualiser
 yarn install
 yarn run start
 ```

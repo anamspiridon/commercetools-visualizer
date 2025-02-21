@@ -22,11 +22,11 @@ jobs:
       - name: Setup Node (uses version in .nvmrc)
         uses: actions/setup-node@v4
         with:
-          node-version-file: './visualiser/.nvmrc'
+          node-version-file: './ctvisualiser/.nvmrc'
 
       - name: Get yarn cache
         id: yarn-cache
-        working-directory: ./visualiser
+        working-directory: ./ctvisualiser
         run: echo "dir=$(yarn cache dir)" >> $GITHUB_OUTPUT
 
       - uses: actions/cache@v4
@@ -37,15 +37,15 @@ jobs:
             ${{ runner.os }}-yarn-
 
       - name: Install dependencies
-        working-directory: ./visualiser
+        working-directory: ./ctvisualiser
         run: yarn install
 
       - name: Building packages
-        working-directory: ./visualiser
+        working-directory: ./ctvisualiser
         run: yarn build
 
       - name: Run tests
-        working-directory: ./visualiser
+        working-directory: ./ctvisualiser
         run: yarn run test
         env:
           CI: true
